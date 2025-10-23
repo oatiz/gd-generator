@@ -8,7 +8,7 @@ import io.gd.generator.annotation.view.*;
 import org.apache.ibatis.type.EnumTypeHandler;
 import org.apache.ibatis.type.StringTypeHandler;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;

@@ -977,10 +977,10 @@ package com.example.users.model.dto;
 import com.example.users.entity.User;
 import org.springframework.data.jpa.domain.Specification;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Predicate;
-import javax.persistence.criteria.Root;
+import jakarta.persistence.criteria.CriteriaBuilder;
+import jakarta.persistence.criteria.CriteriaQuery;
+import jakarta.persistence.criteria.Predicate;
+import jakarta.persistence.criteria.Root;
 import java.util.Objects;
 
 import lombok.Getter;
@@ -1174,7 +1174,7 @@ label    | String    | 字段注释
 >type    | DefaultType    | 值类型，VALUE为设置的值，DBKEY为数据库关键字，用于设置当前日期之类的特殊默认值
 >
 >
->##### @javax.validation.constraints.NotBlank
->##### @javax.validation.constraints.NotEmpty
->##### @javax.validation.constraints.NotNull
+>##### @jakarta.validation.constraints.NotBlank
+>##### @jakarta.validation.constraints.NotEmpty
+>##### @jakarta.validation.constraints.NotNull
 >设置表字段为NOT NULL

@@ -6,7 +6,7 @@ import io.gd.generator.util.ConfigChecker;
 import io.gd.generator.util.FileUtils;
 import io.gd.generator.util.StringUtils;
 
-import javax.persistence.Id;
+import jakarta.persistence.Id;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.lang.reflect.Field;

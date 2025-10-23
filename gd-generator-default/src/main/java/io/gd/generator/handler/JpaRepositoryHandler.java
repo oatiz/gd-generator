@@ -3,8 +3,8 @@ package io.gd.generator.handler;
 import io.gd.generator.meta.jpa.JpaRepositoryMeta;
 import io.gd.generator.util.ConfigChecker;
 
-import javax.persistence.EmbeddedId;
-import javax.persistence.Id;
+import jakarta.persistence.EmbeddedId;
+import jakarta.persistence.Id;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.lang.reflect.Field;

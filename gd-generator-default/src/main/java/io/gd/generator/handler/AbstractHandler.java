@@ -8,7 +8,7 @@ import io.gd.generator.util.ClassHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.persistence.Entity;
+import jakarta.persistence.Entity;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.Map;

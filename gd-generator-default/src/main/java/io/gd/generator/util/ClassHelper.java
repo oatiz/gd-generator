@@ -3,7 +3,7 @@ package io.gd.generator.util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.persistence.Table;
+import jakarta.persistence.Table;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.*;

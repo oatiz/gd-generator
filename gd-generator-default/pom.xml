@@ -2,7 +2,7 @@
     <parent>
         <artifactId>gd-generator</artifactId>
         <groupId>io.github.goudai</groupId>
-        <version>2.0.17-SNAPSHOT</version>
+        <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -64,8 +64,8 @@
             <artifactId>hibernate-validator</artifactId>
         </dependency>
         <dependency>
-            <groupId>javax.validation</groupId>
-            <artifactId>validation-api</artifactId>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>ch.qos.logback</groupId>-->
